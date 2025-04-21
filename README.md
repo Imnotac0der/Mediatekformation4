@@ -1,1 +1,73 @@
-# Mediatekformation4
+Mediatekformation partie Admin
+Présentation
+Ce site, développé avec Symfony 5.4, permet d'accéder à la modifications des formations , playlists et catégories.
+
+Les différentes pages
+Voici les 4 pages correspondant aux différents cas d’utilisation.
+
+Page 1 : la Connexion
+Lorsque l'on tente d'acceder à la partie admin, une page de connexion s'ouvre nous demandant d'entrer un login et un mot de passe.
+
+
+Page 2 : Admin Formation
+Page accessible dans le menu en cliquant sur le nom "Admin Formations"
+
+Possibilité de tri croissant et decroissant des formations
+
+Filtre de recherche de formations
+
+Possibilité de tri croissant et decroissant des playlists liées aux formations
+
+Filtre de recherche de playlists liées aux formations
+
+Possibilité des tris par catégories
+
+Possibilité de tri croissant/décroissant par date de création
+
+Fonctionnialité ajout de formation
+
+Bouton Edition qui mène au formulaire d'édition de la formation
+
+Bouton de suppression
+
+Liste de toutes les formations , avec leur playlists associés, catégories associées , date de parutions, miniature vidéos
+
+
+Page 3 : Admin Playlists
+Page accessible dans le menu en cliquant sur le nom "Admin Playlists"
+
+Possibilité de tri croissant et decroissant des playlists
+
+Filtre de recherche de playlists
+
+Possibilité de tri croissant et decroissant des playlists en fonction du nombre de formations dans la playlist
+
+Ajout de Playlists
+
+Bouton Edition qui mème au formulaire d'édition de la playlist
+
+Bouton de suppression
+
+Liste de toutes les playlists , avec leur catégories associés, nombre de formations dans la playlist
+
+Page 4 : Admin Catégorie
+Page accessible dans le menu en cliquant sur le nom "Admin Catégories"
+
+Ajout de catégories Noms des catégories placées en liste avec la possibilité de les supprimer grâce au bouton "supprimer" placés à coté de chaque catégorie.
+
+Le lien de déconnexion est présent sur toutes les pages.
+
+La base de données
+La base de données exploitée par le site est au format MySQL.
+
+Installation de l'application
+Vérifier que Composer, Git et Wamserver (ou équivalent) sont installés sur l'ordinateur.
+Télécharger le code et le dézipper dans www de Wampserver (ou dossier équivalent) puis renommer le dossier en "mediatekformation".
+Ouvrir une fenêtre de commandes en mode admin, se positionner dans le dossier du projet et taper "composer install" pour reconstituer le dossier vendor.
+Récupérer le fichier mediatekformation.sql en racine du projet et l'utiliser pour créer la BDD MySQL "mediatekformation" en root sans pwd (si vous voulez mettre un login/pwd d'accès, il faut le préciser dans le fichier ".env" en racine du projet).
+De préférence, ouvrir l'application dans un IDE professionnel. L'adresse pour la lancer est : http://localhost/mediatekformation/public/index.php
+Le lien du site est :
+https://mediatekformation.minty-dev-create.fr/
+
+Pour retrouver le readme de la partie front end :
+https://github.com/CNED-SLAM/mediatekformation/blob/master/README.md
