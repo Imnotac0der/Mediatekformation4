@@ -65,9 +65,4 @@ Vérifier que Composer, Git et Wamserver (ou équivalent) sont installés sur l'
 Télécharger le code et le dézipper dans www de Wampserver (ou dossier équivalent) puis renommer le dossier en "mediatekformation".
 Ouvrir une fenêtre de commandes en mode admin, se positionner dans le dossier du projet et taper "composer install" pour reconstituer le dossier vendor.
 Récupérer le fichier mediatekformation.sql en racine du projet et l'utiliser pour créer la BDD MySQL "mediatekformation" en root sans pwd (si vous voulez mettre un login/pwd d'accès, il faut le préciser dans le fichier ".env" en racine du projet).
-De préférence, ouvrir l'application dans un IDE professionnel. L'adresse pour la lancer est : http://localhost/mediatekformation/public/index.php
-Le lien du site est :
-https://mediatekformation.minty-dev-create.fr/
-
-Pour retrouver le readme de la partie front end :
-https://github.com/CNED-SLAM/mediatekformation/blob/master/README.md
+De préférence, ouvrir l'application dans un IDE professionnel. 
